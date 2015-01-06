@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gnatter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Layout Strings -->
+    <!-- Menu Strings -->
+    <string name="user_list_action_logout">Logout</string>
+    <string name="user_list_action_add_friend">Add Buddy</string>
+    <string name="action_settings">Settings</string>
+    <!-- CHAT Layout -->
+    <string name="type_msg">Type message</string>
+
+    <!-- ERROR MESSAGE STRINGS -->
+    <string name="err_fields_empty">Please fill all the fields...</string>
+    <string name="alert_wait">Please wait...</string>
+    <string name="err_singup">There was a problem with your sign up...</string>
+    <string name="title_activity_user_list">UserList</string>
+    <string name="alert_loading">Loading...</string>
+    <string name="err_login">There was a problem with your log in...</string>
+    <string name="msg_no_user_found">Looks like you are the first one here...</string>
+    <string name="err_users">Error occurred while finding users...</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_add_friend">AddFriendActivity</string>
+
+</resources>

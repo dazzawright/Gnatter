@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.bintonet.gnatter.LoginActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Username"
+        android:id="@+id/editTextLoginActivityUsername"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Password"
+        android:id="@+id/editTextLoginActivityPassword"
+        android:layout_below="@+id/editTextLoginActivityUsername"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/editTextLoginActivityUsername" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/buttonLoginActivityLogin"
+        android:layout_below="@+id/editTextLoginActivityPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/editTextLoginActivityPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not yet a member ? ....."
+        android:id="@+id/textViewLoginActivityNotAMember"
+        android:layout_below="@+id/buttonLoginActivityLogin"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/buttonLoginActivityLogin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/buttonLoginActivityRegister"
+        android:layout_below="@+id/textViewLoginActivityNotAMember"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textViewLoginActivityNotAMember" />
+</RelativeLayout>
